@@ -2,6 +2,13 @@
 html {
     background-color:beige;
 }
+h2 {
+    color:sienna;
+}
+
+h3 {
+    color:peru;
+}
 
 body {
     margin: 5em;
@@ -12,14 +19,14 @@ body {
 
 #cabecera {
     background-color:lightcoral;
-    color:lavender;
+    color:lavenderblush;
     height: 55px;
     font-size: 45px;
 }
 
 #pie {
     background-color:lightcoral;
-    color: lavender;
+    color: lavenderblush;
     height:50px;
     text-align: 20px;
 }
