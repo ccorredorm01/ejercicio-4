@@ -1,0 +1,45 @@
+/*index.css*/
+html {
+    background-color:beige;
+}
+
+body {
+    margin: 5em;
+    text-align: justify;
+    font-family: 'Times New Roman';
+    font-size: 18px;
+}
+
+#cabecera {
+    background-color:lightcoral;
+    color:lavender;
+    height: 55px;
+    font-size: 45px;
+}
+
+#pie {
+    background-color:lightcoral;
+    color: lavender;
+    height:50px;
+    text-align: 20px;
+}
+
+div {
+    text-align: center;
+}
+
+a:link {
+    color: green;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color: deeppink;
+}
