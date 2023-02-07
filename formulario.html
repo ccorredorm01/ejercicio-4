@@ -1,0 +1,124 @@
+<html>
+
+<head>
+    <title>MUSEO MITOLÓGICO</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Guía de arte">
+    <link rel="stylesheet" href="index.css" type="text/css" />
+    <link rel="shortcut icon" href="favicon.png">
+</head>
+
+<body>
+    <div id="cabecera">
+        <p>MUSEO MITOLÓGICO</p>
+    </div>
+
+    <h1>FORMULARIO</h1>
+    <p>Por el momento disponemos de tres salas con algunas de las obras más relevantes de la Historia del Arte, sin
+        embargo, no podemos hacerlo solos. Si cree que hay alguna obra que falte perteneciente a los períodos de Grecia,
+        Roma, Gótico, Renacimento o posterior, o prefiere ayudarnos a llenar una futura Sala 4, anímese a participar.
+        Para participar en este museo virtual y formar parte de nuestra comunidad, rellene el siguiente formulario:</p>
+
+    <form action="registrardatos.php" method="post">
+        <fieldset>
+            <legend>Datos personales</legend>
+            1. Nombre y Apellidos:
+            <br><input type="text" name="nombre" size="30"><br>
+
+            2. Fecha de nacimiento:
+            <br><input type="text" name="fechanacimiento" size="12"><br>
+
+            3. Para poder contactar con usted y dar créditos, déjenos su dirección de e-mail:
+            <br><input type="text" name="mail" size="50"><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Preguntas</legend>
+            4. De todas las facetas del arte, ¿qué disciplinas le atraen más?
+            <br>
+            <input type="checkbox" name="arquitectura">Arquitectura<br>
+            <input type="checkbox" name="escultura">Escultura<br>
+            <input type="checkbox" name="pinura">Pintura<br>
+            <input type="checkbox" name="otro">Otro<br>
+
+            5. ¿De dónde vienen sus conocimientos acerca del arte?
+            <br>
+            <input type="radio" name="estudios" value="estudios">Estudio o he estudiado Historia del Arte.<br>
+            <input type="radio" name="estudios" value="afición">Por afición<br>
+            <input type="radio" name="estudios" value="trabajo">Trabajo en el campo<br>
+            <input type="radio" name="estudios" value="cultura general" disabled>Cultura general<br>
+
+            6. Queremos saber de dónde viene su arte, seleccione su país:
+            <select name="pais">
+                <option value="1">España</option>
+                <option value="2">Francia</option>
+                <option value="3">Italia</option>
+                <option value="4">Alemania</option>
+                <option value="5">Reino Unido</option>
+                <option value="6">Rumania</option>
+                <option value="7">Noruega</option>
+                <option value="8">México</option>
+                <option value="9">Colombia</option>
+                <option value="10">Cuba</option>
+                <option value="11">Chile</option>
+                <option value="13">Perú</option>
+                <option value="14">Ecuador</option>
+                <option value="15">Otro</option>
+            </select><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Propuestas</legend>
+            7. ¿Qué aspectos considera mejorables sobre el museo?
+            <br>
+            <input type="checkbox" name="salas">Número de salas: debería haber más.<br>
+            <input type="checkbox" name="obras">Obras: faltan algunas.<br>
+            <input type="checkbox" name="recorrido">Recorrido: no está bien ordenado.<br>
+            <label for="comentarios">Otros aspectos:</label><br>
+            <textarea name="comentarios" rows="5" cols="60"></textarea><br>
+
+            8. ¿Qué pretende incluir en el museo?
+            <br>
+            <input type="radio" name="estudios" value="autor">Un autor.<br>
+            <input type="radio" name="estudios" value="obra">Una obra.<br>
+            <input type="radio" name="estudios" value="sala">Una sala.<br>
+
+            9. ¿Por qué quiere participar? Argumente brevemente las razones por las que quiere trabajar con nosotros:
+            <br>
+            <textarea name="razones" rows="5" cols="60"></textarea>
+            <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Propuestas</legend>
+            10. Si tiene alguna propuesta para empezar a participar en el museo, por favor déjenos un comentario y
+            adjunte
+            un archivo con algún comentario de alguna de las obras propuestas. De todas las que recibamos escogeremos
+            las mejores y daremos créditos:<br>
+            <label for="comentarios">Comentarios:</label><br>
+            <textarea name="comentarios" rows="5" cols="60"></textarea>
+            <br>
+            Adjunte sus :
+            <input type="file" name="foto">
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Sugerencias</legend>
+            Si tiene alguna sugerencia acerca de cómo mejorar este formulario, por favor deja un
+            comentario:<br>
+            <label for="comentarios">Comentarios:</label><br>
+            <textarea name="comentarios" rows="5" cols="60"></textarea>
+            <br>
+
+        </fieldset>
+        <p><a href="index.html">Pulsa aquí para volver a la página principal</a></p>
+
+        <div id="pie">
+            <marquee>
+                <p>Un paseo por la historia del arte.</p>
+            </marquee>
+        </div>
+</body>
+
+</html>
