@@ -44,6 +44,10 @@ div {
     text-align: center;
 }
 
+table {
+    margin: 0 auto;
+}
+
 a:link {
     color: green;
 }
